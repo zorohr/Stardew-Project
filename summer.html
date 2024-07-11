@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardew Project</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="https://kit.fontawesome.com/6d2cc268cb.js" crossorigin="anonymous"></script>
+   <!--   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet"> 
+ font-family: "Silkscreen", sans-serif; -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-frog"></i>Welcome To The Valley</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/Index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/seasons.html" class="navbar__links">Seasons</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/NPCs.html" class="navbar__links">NPCs</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/Miscellaneous.html" class="navbar__links">Miscellaneous</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/ThankYouPage.html" class="button">Thank You</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <!-- Main Section -->
+     <div class="main">
+        <div class="mainSum__container">
+            <div class="mainSum__content">
+                <h1>Welcome To Summer!</h1>
+                <h2>Crops, Forageables, Festivals, Oh My!</h2>
+                <p>So much to do, so little time.</p>
+            </div>
+            <div class="main__img--container">
+                <img src="images/summerCalendar.png" alt="pic" id="main2S__img">
+            </div>
+        </div>
+        
+<!--Table Section-->
+<div class="summerTab">
+  <div class="summerF">
+    <table>
+      <colgroup>
+        <col style="background-color: rgb(91, 214, 126);" />
+        <col style="background-color: rgb(55, 119, 134)" />
+        <col style="background-color: rgb(121, 76, 199)" />
+        <col style="background-color: rgb(188, 112, 171)" />
+        <col style="background-color: rgb(184, 103, 11)" />
+      </colgroup>
+      <tr>
+        <th>Forageables:</th>
+        <th>Found At:</th>
+        <th>Sell Price:</th>
+        <th>Artisan Sell Price (Base):</th>
+        <th>Artisan Sell Price (Profession):</th>
+      </tr>
+      <tr>
+        <td>Grape</td>
+        <td>Backwoods,
+          Bus Stop,
+          Forest Farm,
+          Mountain,
+          Railroad
+        </td>
+        <td>80-160g</td>
+        <td> 240-480g - Wine,
+          210g - Jelly
+        </td>
+        <td>336-672g - Wine,
+          294g - Jelly
+        </td>
+      </tr>
+      <tr>
+          <td>Spice Berry</td>
+          <td>Backwoods,
+              Bus Stop,
+              Cindersap Forest,
+              Farm Cave (Fruit Edition),
+              Forest Farm,
+              Mountain,
+              Railroad
+          </td>
+          <td>80-160g</td>
+          <td> 240-480g - Wine,
+              210g - Jelly
+            </td>
+            <td>336-672g - Wine,
+              294g - Jelly
+            </td>
+        </tr>
+        <tr>
+          <td>Sweet Pea</td>
+          <td>Bus Stop,
+              Cindersap Forest,
+              Forest Farm,
+              Pelican Town,
+              Railroad
+          </td>
+          <td>50-100g</td>
+          <td> N/A</td>
+          <td> N/A</td>
+        </tr>
+        <tr>
+          <td>Red Mushroom</td>
+          <td>Farm Cave(Mushroom Edition),
+              Secret Woods
+          </td>
+          <td>75-150g</td>
+          <td> N/A</td>
+          <td> N/A</td>
+        </tr>
+        <tr>
+          <td>Fiddlehead Fern</td>
+          <td>Secret Woods
+          </td>
+          <td>90-180g</td>
+          <td>202g - Juice,
+              230g - Pickles
+          </td>
+          <td>282g - Juice,
+              322g - Pickles
+          </td>
+        </tr>
+        <tr>
+          <td>Common Mushroom</td>
+          <td>Farm Cave(Mushroom Edition),
+              Forest Farm
+          </td>
+          <td>40-80g</td>
+          <td>130g - Pickles
+          </td>
+          <td>182g - Pickles
+          </td>
+        </tr>
+    </table>
+  </div>
+  <div class="summerSH">
+  <table>
+      <colgroup>
+        <col style="background-color: rgb(43, 226, 46);" />
+        <col style="background-color: rgb(36, 99, 237)" />
+        <col style="background-color: rgb(243, 42, 133)" />
+        <col style="background-color: rgb(207, 82, 10)" />
+      </colgroup>
+      <tr>
+        <th>Single Harvest Crops:</th>
+        <th>Buy Price:</th>
+        <th>Sell Price:</th>
+        <th>Grow Time:</th>
+      </tr>
+      <tr>
+        <td>Melon</td>
+        <td>80g</td>
+        <td>250g</td>
+        <td>12 days</td>
+      </tr>
+      <tr>
+          <td>Poppy</td>
+          <td>100g</td>
+          <td>140g</td>
+          <td>7 days</td>
+        </tr>
+        <tr>
+          <td>Radish</td>
+          <td>40g</td>
+          <td>90g</td>
+          <td>6 days</td>
+        </tr>
+        <tr>
+          <td>Red Cabbage</td>
+          <td>100g</td>
+          <td>260g</td>
+          <td>9 days</td>
+        </tr>
+        <tr>
+          <td>Starfruit</td>
+          <td>400g - Oasis</td>
+          <td>75g</td>
+          <td>13 days</td>
+        </tr>
+        <tr>
+          <td>Summer Spangle</td>
+          <td>50g</td>
+          <td>90g</td>
+          <td>8 days</td>
+        </tr>
+        <tr>
+          <td>Sunflower</td>
+          <td>200g</td>
+          <td>80g</td>
+          <td>8 days</td>
+        </tr>
+        <tr>
+          <td>Wheat</td>
+          <td>10g</td>
+          <td>25g</td>
+          <td>4 days</td>
+        </tr>
+    </table>
+  </div>
+  <div class="summerMH">
+    <table>
+      <colgroup>
+        <col style="background-color: rgb(161, 95, 158);" />
+        <col style="background-color: rgb(64, 150, 77)" />
+        <col style="background-color: rgb(70, 97, 159)" />
+        <col style="background-color: rgb(101, 66, 143)" />
+        <col style="background-color: rgb(164, 111, 57)" />
+      </colgroup>
+      <tr>
+        <th>Multiple Harvest Crops:</th>
+        <th>Buy Price:</th>
+        <th>Sell Price:</th>
+        <th>Grow Time:</th>
+        <th>Regrowth Time:</th>
+      </tr>
+      <tr>
+          <td>Blueberry</td>
+          <td>80g</td>
+          <td>50g each</td>
+          <td>13 days</td>
+          <td>4 days</td>
+        </tr>
+      <tr>
+        <td>Coffee Bean</td>
+        <td>2500g - Traveling Cart</td>
+        <td>15g each</td>
+        <td>10 days</td>
+        <td>2 days</td>
+      </tr>
+      <tr>
+          <td>Corn</td>
+          <td>150g</td>
+          <td>50g</td>
+          <td>14 days</td>
+          <td>4 days</td>
+        </tr>
+        <tr>
+          <td>Hops</td>
+          <td>60g</td>
+          <td>25g</td>
+          <td>11 days</td>
+          <td>1 day</td>
+        </tr>
+        <tr>
+          <td>Hot Pepper</td>
+          <td>40g</td>
+          <td>40g</td>
+          <td>5 days</td>
+          <td>3 days</td>
+        </tr>
+        <tr>
+          <td>Tomato</td>
+          <td>50g</td>
+          <td>60g</td>
+          <td>11 days</td>
+          <td>4 days</td>
+        </tr>
+        <tr>
+          <td>Summer Squash</td>
+          <td>0g</td>
+          <td>45g</td>
+          <td>6 days</td>
+          <td>3 days</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+    
+
+<!-- Services Section -->
+      <div class="summerT">
+        <h1>Are you ready?</h1>
+        <div class="Luau">
+          <img style="float: left; margin: 0px 15px 15px 0px;" src="festivalPhoto/sdvLuau.png" alt="The Luau" width="300" height="200">
+          <span class="Luau2">
+           <b>The Luau</b>. Enter the Beach between 9am - 2pm.
+            <br /><b>The 11th of Summer.</b> Pierre offers a shop with summer themed items, 
+            <br />but the big draw is the Soup! Can you bring the tastiest ingredient?
+      </div>
+      <div class="trDerb">
+        <img style="float: left; margin: 0px 15px 15px 0px;" src="festivalPhoto/sdvTroutDerby.png" alt="Trout Derby" width="300" height="200">
+        <span class="trDerb2">
+         <b>The Trout Derby</b>. From 6:10am - 2am both days.
+          <br /><b>Summer 20-21.</b> Fish for Rainbow Trout, giving you a Golden Tag to be exchanged for Prizes.
+        </span>
+      </div>
+      <div class="mooJel">
+      <img style="float: left; margin: 0px 15px 15px 0px;" src="festivalPhoto/sdvMoonlight.jpg" alt="Moonlight Jelly" width="300" height="200">
+      <span class="mooJel2">
+       <b>The Dance of the Moonlight Jellies</b>. Enter the Beach between 10pm and 12am.
+        <br /><b>Summer 28th.</b> Pierre has a themed shop you can visit before you watch the Jellyfish. 
+      </span>
+  </div>
+        <div class="service__container">
+            <div class="service4__card">
+                <h2>Spring</h2>
+                <p>Has Begun In The Valley</p>
+                <button><a href="spring.html">Learn More</a></button>
+            </div>
+            <div class="service4__card">
+                <h2>Fall</h2>
+                <p>Is Around The Corner!</p>
+                <button><a href="fall.html">Learn More</a></button>
+            </div>
+            <div class="service4__card">
+                <h2>Winter</h2>
+                <p>Is Coming.</p>
+                <button><a href="winter.html">Learn More</a></button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">How It Works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investments</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">How It Works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investments</a>
+                <a href="/">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fa-solid fa-frog"></i>Stardew Valley</a>
+            </div>
+            <p class="website__rights">Zoey 2024. All rights Reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="App.js"></script>
+</body>
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardew Project</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="https://kit.fontawesome.com/6d2cc268cb.js" crossorigin="anonymous"></script>
+   <!--   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet"> 
+ font-family: "Silkscreen", sans-serif; -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-frog"></i>Welcome To The Valley</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/Index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/seasons.html" class="navbar__links">Seasons</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/NPCs.html" class="navbar__links">NPCs</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/Miscellaneous.html" class="navbar__links">Miscellaneous</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/ThankYouPage.html" class="button">Thank You</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <!-- Main Section -->
+     <div class="main">
+        <div class="mainF__container">
+            <div class="mainF__content">
+                <h1>Welcome To Fall!</h1>
+                <h2>Crops, Forageables, Festivals, Oh My!</h2>
+                <p>So much to do, so little time.</p>
+            </div>
+            <div class="main__img--container">
+                <img src="images/fallCalendar.png" alt="pic" id="main2S__img">
+            </div>
+          </div>
+<!--Table Section-->
+<div class="fallTable">
+  <div class="fallF">
+  <table>
+    <colgroup>
+      <col style="background-color: rgb(148, 165, 47);" />
+      <col style="background-color: rgb(119, 72, 194)" />
+      <col style="background-color: rgb(65, 127, 152)" />
+      <col style="background-color: rgb(166, 95, 184)" />
+      <col style="background-color: rgb(184, 152, 11)" />
+    </colgroup>
+    <tr>
+      <th>Forageables:</th>
+      <th>Found At:</th>
+      <th>Sell Price:</th>
+      <th>Artisan Sell Price (Base):</th>
+      <th>Artisan Sell Price (Profession):</th>
+    </tr>
+    <tr>
+        <td>Common Mushroom</td>
+        <td>Farm Cave(Mushroom Edition),
+            Forest Farm
+        </td>
+        <td>40-80g</td>
+        <td>130g - Pickles
+        </td>
+        <td>182g - Pickles
+        </td>
+      </tr>
+    <tr>
+      <td>Wild Plum</td>
+      <td>Backwoods,
+        Bus Stop,
+        Farm Cave (Fruit Edition),
+        Mountain,
+        Railroad
+      </td>
+      <td>80-160g</td>
+      <td> 240-480g - Wine,
+        210g - Jelly
+      </td>
+      <td>336-672g - Wine,
+        294g - Jelly
+      </td>
+    </tr>
+    <tr>
+        <td>Hazelnut</td>
+        <td>Backwoods,
+            Bus Stop,
+            Mountain,
+            Shaking Maple Trees (14th+),
+            Railroad
+        </td>
+        <td>90-180g</td>
+        <td>202g - Juice,
+            230g - Pickles
+        </td>
+        <td>282g - Juice,
+            322g - Pickles
+        </td>
+      </tr>
+      <tr>
+        <td>Blackberry</td>
+        <td>Bushes (8th-11th),
+            Cindersap Forest,
+            Farm Cave (Fruit Edition),
+            Pelican Town,
+            Railroad
+        </td>
+        <td>20-40g</td>
+        <td> 60-120g - Wine,
+            90g - Jelly
+          </td>
+          <td>84-168g - Wine,
+            126g - Jelly
+          </td>
+      </tr>
+      <tr>
+        <td>Chanterelle</td>
+        <td>Farm Cave(Mushroom Edition),
+            Forest Farm,
+            Secret Woods
+        </td>
+        <td>160-320g</td>
+        <td>370g - Pickles
+        </td>
+        <td>518g - Pickles
+        </td>
+      </tr>
+      <tr>
+        <td>Red Mushroom</td>
+        <td>Farm Cave(Mushroom Edition),
+            Secret Woods
+        </td>
+        <td>75-150g</td>
+        <td> N/A</td>
+        <td> N/A</td>
+      </tr>
+      <tr>
+        <td>Purple Mushroom</td>
+        <td>Farm Cave(Mushroom Edition),
+            Forest Farm
+        </td>
+        <td>250-500g</td>
+        <td>550g - Pickles
+        </td>
+        <td>770g - Pickles
+        </td>
+      </tr>
+  </table>
+</div>
+<div class="fallSH">
+<table>
+  <colgroup>
+    <col style="background-color: rgb(35, 114, 37);" />
+    <col style="background-color: rgb(57, 91, 165)" />
+    <col style="background-color: rgb(120, 51, 168)" />
+    <col style="background-color: rgb(179, 92, 42)" />
+  </colgroup>
+  <tr>
+    <th>Single Harvest Crops:</th>
+    <th>Buy Price:</th>
+    <th>Sell Price:</th>
+    <th>Grow Time:</th>
+  </tr>
+  <tr>
+    <td>Amaranth</td>
+    <td>70g</td>
+    <td>150g</td>
+    <td>7 days</td>
+  </tr>
+  <tr>
+      <td>Artichoke</td>
+      <td>30g</td>
+      <td>160g</td>
+      <td>8 days</td>
+    </tr>
+    <tr>
+      <td>Beet</td>
+      <td>20g - Oasis</td>
+      <td>100g</td>
+      <td>6 days</td>
+    </tr>
+    <tr>
+      <td>Bok Choy</td>
+      <td>50g</td>
+      <td>80g</td>
+      <td>4 days</td>
+    </tr>
+    <tr>
+      <td>Fairy Rose</td>
+      <td>200g</td>
+      <td>290g</td>
+      <td>12 days</td>
+    </tr>
+    <tr>
+      <td>Pumpkin</td>
+      <td>100g</td>
+      <td>320g</td>
+      <td>13 days</td>
+    </tr>
+    <tr>
+      <td>Sunflower</td>
+      <td>200g</td>
+      <td>80g</td>
+      <td>8 days</td>
+    </tr>
+    <tr>
+      <td>Sweet Gem Berry</td>
+      <td>1,000g - Traveling Cart</td>
+      <td>3,000g</td>
+      <td>24 days</td>
+    </tr>
+    <tr>
+      <td>Wheat</td>
+      <td>10g</td>
+      <td>25g</td>
+      <td>4 days</td>
+    </tr>
+    <tr>
+      <td>Yam</td>
+      <td>60g</td>
+      <td>160g</td>
+      <td>10 days</td>
+    </tr>
+</table>
+</div>
+<div class="fallMH">
+<table>
+  <colgroup>
+    <col style="background-color: rgb(91, 145, 67);" />
+    <col style="background-color: rgb(183, 134, 43)" />
+    <col style="background-color: rgb(115, 86, 202)" />
+    <col style="background-color: rgb(64, 105, 163)" />
+    <col style="background-color: rgb(65, 152, 142)" />
+  </colgroup>
+  <tr>
+    <th>Multiple Harvest Crops:</th>
+    <th>Buy Price:</th>
+    <th>Sell Price:</th>
+    <th>Grow Time:</th>
+    <th>Regrowth Time:</th>
+  </tr>
+  <tr>
+      <td>Corn</td>
+      <td>150g</td>
+      <td>50g</td>
+      <td>14 days</td>
+      <td>4 days</td>
+    </tr>
+  <tr>
+    <td>Cranberries</td>
+    <td>240g</td>
+    <td>75g - each</td>
+    <td>7 days</td>
+    <td>5 days</td>
+  </tr>
+  <tr>
+      <td>Eggplant</td>
+      <td>20g</td>
+      <td>60g</td>
+      <td>5 days</td>
+      <td>5 days</td>
+    </tr>
+    <tr>
+      <td>Broccoli</td>
+      <td>0g</td>
+      <td>70g</td>
+      <td>8 days</td>
+      <td>4 days</td>
+    </tr>
+    <tr>
+      <td>Grape</td>
+      <td>60g</td>
+      <td>80g</td>
+      <td>10 days</td>
+      <td>3 days</td>
+    </tr>
+</table>
+</div>
+</div>
+
+<!-- Services Section -->
+<div class="fallT">
+  <h1>Are you prepared?</h1>
+  <div class="Fair">
+    <img style="float: left; margin: 0px 15px 15px 0px;" src="festivalPhoto/sdvFair.png" alt="The Fair" width="300" height="200">
+    <span class="Fair2">
+     <b>Stardew Valley Fair</b>. Enter Pelican Town between 9am and 3pm.
+      <br /><b>The 16th of Fall.</b>There are several games to play while you wait to be judged in the Grange Display.
+</div>
+<div class="spEve">
+  <img style="float: left; margin: 0px 15px 15px 0px;" src="festivalPhoto/sdvSpirits.png" alt="Spirit's Eve" width="300" height="200">
+  <span class="spEve2">
+   <b>Spirit's Eve</b>. Enter Pelican Town between 10pm and 11:50pm.
+    <br /><b>Fall 27th.</b> Pierre has a themed shop you can visit before you complete the maze for a fun prize.
+  </span>
+</div>
+  <div class="service__container">
+      <div class="service5__card">
+          <h2>Spring</h2>
+          <p>Has Begun In The Valley</p>
+          <button><a href="spring.html">Learn More</a></button>
+      </div>
+      <div class="service5__card">
+          <h2>Summer</h2>
+          <p>Can't Beat The Heat!</p>
+          <button><a href="summer.html">Learn More</a></button>
+      </div>
+      <div class="service5__card">
+          <h2>Winter</h2>
+          <p>Is Coming.</p>
+          <button><a href="winter.html">Learn More</a></button>
+      </div>
+  </div>
+</div>
+
+      <!-- Footer Section -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <a href="/">How It Works</a>
+                        <a href="/">Testimonials</a>
+                        <a href="/">Careers</a>
+                        <a href="/">Investments</a>
+                        <a href="/">Terms of Service</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <a href="/">How It Works</a>
+                        <a href="/">Testimonials</a>
+                        <a href="/">Careers</a>
+                        <a href="/">Investments</a>
+                        <a href="/">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fa-solid fa-frog"></i>Stardew Valley</a>
+                    </div>
+                    <p class="website__rights">Zoey 2024. All rights Reserved</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="App.js"></script>
+</body>
+</html>
